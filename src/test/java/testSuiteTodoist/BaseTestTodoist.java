@@ -12,6 +12,7 @@ public class BaseTestTodoist {
     MenuSectionTodoist menuSectionTodoist = new MenuSectionTodoist();
     AddProjectSection addProjectSection = new AddProjectSection();
     ProjectSection projectSection = new ProjectSection();
+    AddTaskSection addTaskSection = new AddTaskSection();
     @BeforeEach
     public void openBrowser(){
         Session.getInstance().getBrowser().get("https://todoist.com/es");
